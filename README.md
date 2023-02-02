@@ -36,3 +36,4 @@ This project showcases a simple web application, which shows the current and for
 ![Challege-6](https://user-images.githubusercontent.com/48407721/216399381-861b745d-7398-4d7f-af53-b9b6f020fc5b.PNG)
 
 ## Deployment link
+https://cassielawww.github.io/challenge-6-weather-app/
