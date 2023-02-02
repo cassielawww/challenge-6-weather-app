@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Weather Dashboard styling*/
+header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-image: linear-gradient(to right top, #051937, #004971, #007d87, #00af6b, #a2d62d);
+    font-family: "Gill Sans Extrabold", sans-serif;
+    color: white;
+
+}
+
+
+.column1 {
+    width: 100%;
+    margin: 0;
+}
+
+.column2 {
+    width: 100%;
+    margin: 0;
+}
+
+/*Search area styling - fonts, search bar, search button, search history*/
+h1 {
+    margin: 0.5em;
+    font-weight: bold;
+}
+
+#citySearch {
+    margin: 0.5em;
+    width: 20%;
+    border-radius: 0.3em;
+    border: 0.1rem solid #000000;
+    height: 40px;
+    padding-top: 0.5rem;
+    display: block;
+}
+
+
+#searchButton {
+    margin: 0.5em;
+    width: 8%;
+    border-radius: 0.3em;
+    border: 0.1rem solid #000000;
+    background-color: #6495ED;
+    color: #ffffff;
+    height: 40px;
+    font-size:1rem;
+    display: block;
+
+}
+
+
+button {
+    margin: 0.5em;
+    width: 8%;
+    border: 0.1rem #000000;
+    border-radius: 8px;
+    background-color: #d3d3d3;
+    color: #ffffff;
+    height: 40px;
+    font-size:1rem;
+    display: block;
+
+}
+
+
+#searchHistory > button{
+    content: "\a";
+    white-space: pre;
+}
+
+#weather-results, #weather-forecast-results {
+    margin: -200px auto;
+    width: 55%;
+    float: initial;
+    padding: 30px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+
+.searchHistory {
+    margin: 0.5em;
+    width: 8%;
+    border-radius: 0.3em;
+    border: 0.1rem solid #000000;
+    background-color: #808080;
+    color: #ffffff;
+    height: 40px;
+    font-size:1rem;
+    display: block;
+
+}
+
+#weather-forecast-results {
+    margin: -20px auto;
+}
+
+/*Search results styling*/
+
+body {
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+
+
+
+/*Media Query*/

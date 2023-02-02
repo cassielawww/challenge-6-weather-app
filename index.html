@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <!--Header-->
+    <header class="header">Weather Dashboard</header>
+<main class="column1">
+    <div id="left-hand-side-search">
+            <!--Search city-->
+            <h1>Search for a city</h1>
+            <form class="inputForm" id="form">
+            <input type="text" class="inputValue" id="citySearch" placeholder="Name of the city">
+            <button class="button" type="submit" id="searchButton"> Search</button>
+</form>
+
+
+    <!--Search city history-->
+        <div id="searchHistory"></div>
+
+    </div>
+</main>
+    <!--Search result display-->
+    <div id="weather-results">
+    </div>
+
+    <div id="weather-forecast-results">
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+    crossorigin="anonymous"></script>
+    <script src="assets/script.js" defer></script>
+</body>
+</html>
+
