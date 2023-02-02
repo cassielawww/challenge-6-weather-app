@@ -58,7 +58,7 @@ h1 {
 
 }
 
-
+/*For historical search - dynamically appearing*/
 button {
     margin: 0.5em;
     width: 8%;
@@ -113,5 +113,3 @@ body {
 
 
 
-
-/*Media Query*/
